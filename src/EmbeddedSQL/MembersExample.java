@@ -1,3 +1,5 @@
+package EmbeddedSQL;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -12,7 +14,7 @@ public class MembersExample {
         String member_email = "alice.brown@example.com";
         String member_phone = "0712345678";
 
-        // Database connection details
+        // EmbeddedSQL.Database connection details
         String jdbcURL = "jdbc:mysql://localhost:3306/library_system"; // Replace with your database name
         String dbUser = "root"; // Replace with your MySQL username
         String dbPassword = "Cyril@2019"; // Replace with your MySQL password
