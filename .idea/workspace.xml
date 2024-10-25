@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a3dbdf-89b6-48fa-9b91-40fea07b7aa8" name="Changes" comment="Connect mySQL to JDBC">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_9_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmbeddedSQL/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MembersExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmbeddedSQL/MembersExample.java" afterDir="false" />
+    <list default="true" id="c9a3dbdf-89b6-48fa-9b91-40fea07b7aa8" name="Changes" comment="Dynamic SQL">
+      <change afterPath="$PROJECT_DIR$/src/EmbeddedSQL/EmbeddedSQLExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProgrammingAssignmentUnit7/OrderTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Database.executor": "Run",
+    "Application.DynamicSQLExample.executor": "Run",
+    "Application.EmbeddedSQLExample.executor": "Run",
     "Application.MembersExample.executor": "Run",
+    "Application.OrderTransaction.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -53,6 +55,11 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="EmbeddedSQL" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,12 +85,29 @@
       <option name="project" value="LOCAL" />
       <updated>1729806472739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dynamic SQL">
+      <option name="closed" value="true" />
+      <created>1729806927156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729806927156</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dynamic SQL">
+      <option name="closed" value="true" />
+      <created>1729807083481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729807083481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Connect mySQL to JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connect mySQL to JDBC" />
+    <MESSAGE value="Dynamic SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic SQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
